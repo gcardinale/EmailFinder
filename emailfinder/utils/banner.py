@@ -5,7 +5,7 @@ from prompt_toolkit import print_formatted_text
 from pyfiglet import Figlet
 
 
-author = "@JosueEncinar"
+author = "@genio_speciale"
 description = "Search emails from a domain through search engines."
 usage_example = "emailfinder -d domain.com"
 

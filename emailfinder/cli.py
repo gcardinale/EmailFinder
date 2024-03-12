@@ -12,7 +12,8 @@ def main(argv=None):
        argv (list): The list of parameters passed.
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d','--domain', help="Domain to search",required=True)
+    parser.add_argument('-s','--search', help="Name to search",required=False)
+    parser.add_argument('-d','--domain', help="Domain to search",required=False)
     parser.add_argument('-p', '--proxy', help="HTTP proxy server URL", required=False)
     parser.add_argument('-v','--version', help="Show Emailfinder version", action='version', version=__version__)
 
